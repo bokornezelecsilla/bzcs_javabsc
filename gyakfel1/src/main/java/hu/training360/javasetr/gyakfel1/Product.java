@@ -22,10 +22,7 @@ public class Product {
 
     public BigDecimal totalWeight(int pieces)
     {
-        BigDecimal ret = unitWeight;
-        BigDecimal bigPieces  = new BigDecimal(pieces);
-        ret = ret.multiply(bigPieces);
-        return ret;
+        return unitWeight.multiply(new BigDecimal(pieces));
     }
 
     @Override

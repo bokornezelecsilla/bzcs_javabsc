@@ -5,6 +5,6 @@ import hu.training360.javase.htmlapi.controllers.Button;
 
 public class HtmlDocTest {
 
-    
+
 
 }
